@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templete</title>
+    <style>
+      div {
+        margin: 20px 0;
+        padding: 10px;
+        width: 50%;
+        font-size: 150%;
+        border: 1px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <form action="" method="GET" target="_blanck">
+      <div>
+        <label for="username">User Name</label>
+        <input type="text" name="username" placeholder="Type Your Name" required id="username">
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Password" required autofocus id="password">
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Type Your Email" id="email">
+      </div>
+      <div>
+        <label for="">Email</label>
+        <input type="email" name="email" value="mo@gmail.com" readonly placeholder="Type Your Email">
+      </div>
+      <div>
+        <label for="">Email</label>
+        <input type="email" name="email" placeholder="Type Your Email" value="mo@gmail.com" disabled>
+      </div>
+      <div>
+        <label for="">Mobile</label>
+        <input type="text" placeholder="Type Your Mobile" minlength="11" maxlength="11">
+      </div>
+      <div>
+        <label for="">Range</label>
+        <input type="range" name="range" value="0" min="0" max="100" step="20">
+      </div>
+      <div>
+        <label for="">Color</label>
+        <input type="color" name="color">
+      </div>
+      <div>
+        <label for="">Number</label>
+        <input type="number" name="number" >
+      </div>
+      <div>
+        <input type="radio" name="os" value="windows" checked id="windows"><label for="windows">Windows</label><br>
+        <input type="radio" name="os" value="Linux" id="Linux"><label for="Linux">Linux</label><br>
+        <input type="radio" name="os" value="Mac" id="Mac"><label for="Mac">Mac</label><br>
+      </div>
+      <div>
+        <input type="checkbox" name="os" value="windows" id="windows1"><label for="windows1">Windows</label><br>
+        <input type="checkbox" name="os" value="Linux" id="Linux1"><label for="Linux1">Linux</label><br>
+        <input type="checkbox" name="os" value="Mac" id="Mac1" checked><label for="Mac1">Mac</label><br>
+      </div>
+      <div>
+        <label for="book">Choose Book </label>
+        <select name="book" id="book">
+          <optgroup label="Romantic Books">
+            <option value="Book 1">Book 1</option>
+            <option value="Book 2" selected>Book 2</option>
+            <option value="Book 3">Book 3</option>
+            <option value="Book 4">Book 4</option>
+          </optgroup>
+          <optgroup label="Police Books">
+            <option value="Book 5">Book 5</option>
+            <option value="Book 6">Book 6</option>
+            <option value="Book 7">Book 7</option>
+            <option value="Book 8">Book 8</option>
+          </optgroup>
+        </select>
+      </div>
+      <div>
+        <textarea name="subject" id="subject" cols="30" rows="10" placeholder="Text Area"></textarea>
+      </div>
+      <div>
+        <label for="file">Choose File</label>
+        <input type="file" id="file">
+      </div>
+      <div>
+        <label for="search">Search</label>
+        <input type="search">
+      </div>
+      <div>
+        <label for="url">URL</label>
+        <input type="url">
+      </div>
+      <div>
+        <label for="date">Date</label>
+        <input type="date" id="date">
+      </div>
+      <div>
+        <label for="month">Month</label>
+        <input type="month" id="month">
+      </div>
+      <div>
+        <label for="time">Time</label>
+        <input type="time" id="time">
+      </div>
+      <div>
+        <input list="programming" name="program">
+        <datalist id="programming">
+          <option value="python"></option>
+          <option value="php"></option>
+          <option value="c++"></option>
+          <option value="html"></option>
+          <option value="css"></option>
+        </datalist>
+      </div>
+      <div>
+        <input type="reset" value="Reset Data">
+      </div>
+      <div>
+        <input type="submit" value="Send Information">
+      </div>
+    </form>
+    <pre>
+      <code>
+        var x = 10;
+        var y = 20;
+        console.log(x + y);
+      </code>
+    </pre>
+  </body>
+</html>
