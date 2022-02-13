@@ -6,7 +6,8 @@ HTML &amp; CSS Projects For Beginners ✌💻
     📍 HTML describes the structure of a Web page
     📍 HTML consists of a series of elements
     📍 HTML elements tell the browser how to display the content
-<hr>
+# <hr>
+
 # What is CSS?
     📍 CSS stands for Cascading Style Sheets
     📍 CSS describes how HTML elements are to be displayed on screen, paper, or in other media
