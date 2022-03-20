@@ -1,0 +1,61 @@
+/* Global Reset WebPage or Normalize */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* End Global */
+
+/* Start Header */
+.header-top{
+    background-color: #333;
+    color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+/* Navigation */
+nav{
+    background-color: #ddd;
+}
+nav ul{
+    padding: 20px;
+    text-align: center;
+}
+nav ul li{
+    padding: 10px;
+    border: 2px solid #eee;
+    display: inline-block;
+}
+nav ul li:hover{
+    cursor: pointer;
+    background-color: rgb(70, 69, 69);
+    color: white;
+}
+/* End Header */
+
+/* Start articles */
+article{
+    padding: 10px;
+    background-color: #f6f6f6;
+    border: 1px solid black;
+    margin: 20px;
+}
+article header{
+    background-color: #e2e2e2;
+    padding: 10px;
+}
+article section{
+    padding: 10px;
+}
+/* End articles */
+
+/* Start Footer */
+footer{
+    background-color: #333;
+    color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+/* End Footer */
