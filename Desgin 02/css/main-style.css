@@ -1,0 +1,445 @@
+/* Global Rules Start */
+
+body{
+    font-family: 'Ropa Sans', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Global Rules End */
+
+/*******************************************/
+
+/* Header Div Start */
+
+.header{
+    background-color: #343A40;
+    background-image: url('../images/pattern-1.jpg');
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.header .header-left{
+    float: left;
+    width: 35%;
+}
+.header .header-left .logo{
+    background: #FFC107;
+    padding: 130px 30px 27px;
+    color: #112031;
+}
+.header .header-left .logo h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.header .header-left .logo h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.header .header-left .logo h1 span{
+    color: #345B63;
+}
+.header .header-right{
+    float: right;
+    width: 60%;
+    text-align: right;
+    color: #fff;
+}
+.header .header-right .right-top{
+    padding: 30px 12px 20px;
+    font-size: 15px;
+}
+.header .header-right .right-top p{
+    padding-bottom: 10px;
+    color: #FFC107;
+}
+.header .header-right .right-top p a{
+    text-decoration: none;
+    color: #FFC107;
+}
+.header .header-right .menu{
+    width: 500px;
+
+    float: right;
+}
+.header .header-right .menu ul{
+    list-style: none;
+    overflow: hidden;
+    margin-left: 44px;
+}
+.header .header-right .menu ul li{
+    margin: 0 10px 10px 0;
+    float:left; 
+    text-align: center;
+    text-transform: uppercase;
+    padding:20px; 
+    width:100px;
+    border: 1px solid #345B63;
+    font-weight: bold;
+}
+.header .header-right .menu ul li:hover{
+    cursor: pointer;
+    color: #FFC107;
+    background: #8e7257;
+}
+.header .header-right .menu ul li.active{
+    color: #FFC107;
+    background: #8e7257;
+}
+
+/* Header Div End */
+
+/*******************************************/
+
+/* Person Div Start */
+
+.person{
+    background-image: url('../images/pattern-2.jpg');
+    overflow: hidden;
+    padding: 50px ;
+}
+.person .person-info{
+    float: left;
+    width: 28%;
+    border: 5px solid #fff;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 5px 10px #345B63;
+}
+.person .person-info img{
+    width: 100%;
+}
+.person .person-info h2{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px;
+    border-left: 4px solid #112031;
+    margin-top: 10px;
+}
+.person .person-info hr{
+    width: 90%;
+    background-color: #8e7257;
+    height: 2px;
+}
+.person .person-info p{
+    font-size: 15px;
+    line-height: 20px;
+    padding: 20px 0;
+    color: #978e86;
+}
+.person .person-info i{
+    color: #112031;
+    font-size: 20px;
+}
+.person .person-info i:hover{
+    cursor: pointer;
+    color: #FFC107;
+}
+.person .person-info button{
+    padding: 10px;
+    border: 0;
+    margin-left: 5px;
+    width: 120px;
+    text-align: center;
+    color: #fff;
+    background: #112031;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.person .person-info button:hover{
+    cursor: pointer;
+    color: #FFC107;
+}
+.person .center-person,
+.person .right-person{
+    margin-left: 31px;
+}
+
+/* Person Div End */
+
+/*******************************************/
+
+/* Main Div Start */
+
+.main{
+    background-image: url('../images/pattern-3.jpg');
+    padding: 100px 0;
+
+}
+.main .top-section{
+    background-color: #f3f3ee;
+    padding: 50px 30px; 
+}
+.main .top-section h2{
+    color: #112031;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 15px 10px;
+    border-left: 4px solid #112031;
+}
+.main .top-section hr{
+    width: 100%;
+    background-color: #8e7257;
+    padding: .2px;
+    margin: 15px 0;
+}
+.main .top-section p{
+    font-size: 15px;
+    line-height: 20px;
+    padding: 20px 0;
+    color: #978e86;
+}
+.main .top-section i{
+    color: #112031;
+}
+.main .top-section button{
+    padding: 10px 0;
+    border: 0;
+    margin-left: 5px;
+    width: 120px;
+    text-align: center;
+    color: #FFC107;
+    background-color: #345B63;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.main .top-section button:hover{
+    cursor: pointer;
+}
+.contain-main{
+    padding: 50px 0;
+    overflow: hidden;
+}
+.contain-main .left-side{
+    float: left;
+    width: 70%;
+    margin-right: 30px;
+}
+.contain-main .left-side .top-div{
+    padding: 20px;
+    background-image: url('../images/pattern-2.jpg');
+    overflow: hidden;
+}
+.contain-main .left-side .top-div h2{
+    color: #112031;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 15px 10px;
+    border-left: 4px solid #112031;
+}
+.contain-main .left-side .top-div .more-info{
+    float: left;
+    width: 44%;
+    padding: 10px;
+}
+.contain-main .left-side .top-div .more-info .icon {
+    float: left;
+    width: 30%;
+}
+.contain-main .left-side .top-div .more-info .info{
+    float: left;
+    width: 70%;
+}
+.contain-main .left-side .top-div .more-info .info h3{
+    padding: 5px 0;
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+
+}
+.contain-main .left-side .top-div .more-info .info p{
+    font-size: 15px;
+    line-height: 15px;
+    padding: 5px 0;
+    color: #ffffff;
+}
+.left-side .center-div{
+    margin-top: 30px;
+    background: #F3F3EE !important;
+}
+.left-side .center-div h3{
+    padding: 5px 0;
+    font-size: 20px;
+    color: #cf9359;
+    text-transform: capitalize;
+}
+.left-side .center-div p{
+    font-size: 15px;
+    line-height: 20px;
+    padding: 20px 0;
+    color: #978e86;
+}
+.left-side .center-div .employee div{
+    overflow: hidden;
+}
+.left-side .center-div .employee div{
+    float: left;
+    margin-right: 20px;
+}
+.left-side .bottom-div{
+    margin-top: 30px;
+    background: #F3F3EE !important;
+}
+.left-side .bottom-div h3{
+    padding: 5px 0;
+    font-size: 20px;
+    color: #cf9359;
+    text-transform: capitalize;
+}
+.left-side .bottom-div p{
+    font-size: 15px;
+    line-height: 20px;
+    padding: 20px 0;
+    color: #978e86;
+}
+.contain-main .right-side{
+    float: left;
+    width: 26%;
+}
+.contain-main .right-side .first{
+    background-color: #f3f3ee;
+    padding: 20px;
+}
+.contain-main .right-side .first h2{
+    color: #112031;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px 5px;
+    border-left: 3px solid #112031;
+    font-weight: bold;
+}
+.contain-main .right-side .first hr{
+    width: 90%;
+    background-color: #8e7257;
+    padding: .5px 0;
+}
+.contain-main .right-side .first h3{
+    padding: 15px 0 5px 0;
+    font-size: 15px;
+    color: #cf9359;
+    text-transform: capitalize;
+}
+.contain-main .right-side .first{
+    overflow: hidden;
+}
+.contain-main .right-side .first div{
+    float: left;
+    margin-top: 10px;
+}
+.contain-main .right-side .first div input{
+    height: 20px;
+    background-color: #F3F3EE;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.contain-main .right-side .first div i{
+    margin-left: 5px;
+    padding: 8px;
+    font-size: 15px;
+    background-color: tomato;
+    color: #ffffff;
+}
+.contain-main .right-side .second{
+    margin-top: 15px;
+}
+.contain-main .right-side .second div i{
+    padding: 0;
+    margin: 0;
+    background: none;
+    font-size: 15px !important; 
+    color: #CF9359;
+}
+.contain-main .right-side .second div p{
+    font-size: 13px;
+    padding-left: 5px;
+    padding: 0 5px 10px;
+    color: #978e86;
+}
+.contain-main .right-side .second .hr{
+    width: 100%;
+    background-color: #8e7257;
+    padding: .5px 0;
+    margin: 6px 0;
+}
+.right-side .person-info{
+    margin-top: 20px;
+    border: 5px solid #fff;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 5px 10px #345B63;
+}
+.right-side .person-info img{
+    width: 100%;
+}
+.right-side .person-info h2{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px;
+    border-left: 4px solid #112031;
+    margin-top: 10px;
+}
+.right-side .person-info hr{
+    width: 90%;
+    background-color: #8e7257;
+    height: 2px;
+}
+.right-side .person-info p{
+    font-size: 15px;
+    line-height: 20px;
+    padding: 20px 0;
+    color: #978e86;
+}
+
+/* Main Div End */
+
+/* Footer Div Start */
+.footer{
+    background-image: url('../images/pattern-1.jpg');
+    overflow: hidden;
+}
+.footer .one,
+.footer .two{
+    float: left;
+    width: 50%;
+}
+.footer .one p{
+    font-size: 20px;
+    padding: 20px 0;
+    color: #ffffff;
+    margin: 20px;
+}
+.footer .one span{
+    
+    color: #FFC107;
+}
+.footer .two ul{
+    list-style: none;
+}
+.footer .two ul li{
+    margin: 20px;
+    float:left; 
+    text-align: center;
+    text-transform: uppercase;
+    padding:15px; 
+    width: 30px;
+    border-radius: 50px;
+    border: 2px solid #ccc;
+}
+.footer .two ul li i{
+    font-size: 20px;
+    color: #FFC107;
+}
+.footer .two ul li:hover{
+    cursor: pointer;
+    background-color: #345B63;
+}
+/* Footer Div End */
